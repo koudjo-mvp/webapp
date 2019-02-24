@@ -9,7 +9,7 @@ if [ $# -ne 3 ]; then
 fi
 
 last_cmd=""
-listfiles=$(grep -rlE --include={*.cfg,*.txt,*.xml,*.iml,*.js,*.py,*.sh,*.hjs,*.css} 'webapp|WEBAPP' .)
+listfiles=$(grep -rlE --include={build,*.cfg,*.txt,*.xml,*.iml,*.js,*.py,*.sh,*.hjs,*.css} 'webapp|WEBAPP' .)
 allcaps=`echo $1 | tr [a-z] [A-Z]`
 #echo "list: $listfiles"
 
