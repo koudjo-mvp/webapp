@@ -9,7 +9,7 @@ if [ $# -ne 2 ]; then
 fi
 
 replace_cmd=""
-output1=$(grep -rl --include=*.{py,js,json} 'VERSION|PYTHONHOME' .)
+output1=$(grep -rlE --include=*.{py,js,json} 'VERSION|PYTHONHOME' .)
 #echo "list: $output1"
 
 for i in $output1; do
@@ -17,7 +17,7 @@ for i in $output1; do
         #echo "file: $i"
         if [[ "$i" == *.py ]] || [[ "$i" == *.js ]]; then
             #echo "file: *.py *.js"
-            sed 's/${BUILD-VERSION}/'$1'.'$2'/g; s/${PYTHONHOME}/'$PYTHONHOME'/g' $i > $i.new
+            sed 's~${BUILD-VERSION}~'$1'.'$2'~g; s~${PYTHONHOME}~'$PYTHONHOME'~g' $i > $i.new
             replace_cmd=$?
         elif [[ "$i" == *.json ]]; then
             sed 's/${RELEASE-VERSION}/'$1'/g' $i > $i.new
@@ -29,8 +29,8 @@ for i in $output1; do
             exit 2
         fi
         mv $i.new $i
-        git add $i
+        #git add $i
     fi
 done
 
-git commit -m "Build / Release version number $1.$2 created."
+#git commit -m "Build / Release version number $1.$2 created."
