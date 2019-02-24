@@ -1,0 +1,69 @@
+# Notice: Crawling webapp is prohibited unless you have express written
+
+User-agent: Applebot
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: baiduspider
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: Bingbot
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: Googlebot
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: ia_archiver
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: msnbot
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: Naverbot
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: seznambot
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: Slurp
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: teoma
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: Twitterbot
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: Yandex
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: Yeti
+Disallow: /api/
+Disallow: /uploads/
+Disallow: /images/
+
+User-agent: *
+Disallow: /

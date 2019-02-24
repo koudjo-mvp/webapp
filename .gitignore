@@ -1,0 +1,26 @@
+# ignore logs
+**logs/*.log
+**.DS_Store
+**.pyc
+
+# ignore WebStorm folder
+.idea/
+
+# ignore nodejs binary modules
+node_modules/
+
+# ignore public and bin pycache modules
+public/uploads/*
+!public/uploads/default/avatars/*
+public/jobs/*
+bin/__pycache__/
+bin/scripts/*
+!bin/scripts/__init__.py
+!bin/scripts/helloworld_src
+!bin/scripts/helloworld_src/__init__.py
+!bin/scripts/helloworld_src/tasks.py
+!bin/scripts/helloworld_src/run_status_webhook.py
+!bin/scripts/*.sh
+!bin/scripts/celeryinstance.py
+!bin/scripts/app_scheduler.py
+bin/api/__pycache__/

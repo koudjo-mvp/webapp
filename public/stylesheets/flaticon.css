@@ -1,0 +1,109 @@
+  /*
+    Flaticon icon font: Flaticon
+    Creation date: 16/09/2017 16:42
+    */
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+    /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-comment:before { content: "\f100"; }
+.flaticon-chat:before { content: "\f101"; }
+.flaticon-expanded:before { content: "\f102"; }
+.flaticon-expand:before { content: "\f103"; }
+.flaticon-locked:before { content: "\f104"; }
+.flaticon-arrows-right:before { content: "\f105"; }
+.flaticon-arrows-left:before { content: "\f106"; }
+.flaticon-right-puce:before { content: "\f107"; }
+.flaticon-left-puce:before { content: "\f108"; }
+.flaticon-photo-camera:before { content: "\f109"; }
+.flaticon-photo:before { content: "\f10a"; }
+.flaticon-instagram:before { content: "\f10b"; }
+.flaticon-document:before { content: "\f10c"; }
+.flaticon-up-arrow:before { content: "\f10d"; }
+.flaticon-left-arrow:before { content: "\f10e"; }
+.flaticon-down-arrow:before { content: "\f10f"; }
+.flaticon-right-arrow:before { content: "\f110"; }
+.flaticon-wi-fi:before { content: "\f111"; }
+.flaticon-shapes:before { content: "\f112"; }
+.flaticon-like-1:before { content: "\f113"; }
+.flaticon-check-symbol:before { content: "\f114"; }
+.flaticon-edit-action:before { content: "\f115"; }
+.flaticon-settings:before { content: "\f116"; }
+.flaticon-delete:before { content: "\f117"; }
+.flaticon-delete-button:before { content: "\f118"; }
+.flaticon-close-btn:before { content: "\f119"; }
+.flaticon-trash:before { content: "\f11a"; }
+.flaticon-like1:before { content: "\f11b"; }
+.flaticon-like:before { content: "\f11c"; }
+.flaticon-heart:before { content: "\f11d"; }
+.flaticon-pinterest:before { content: "\f11e"; }
+.flaticon-google:before { content: "\f11f"; }
+.flaticon-youtube:before { content: "\f120"; }
+.flaticon-twitter-1:before { content: "\f121"; }
+.flaticon-twitter:before { content: "\f122"; }
+.flaticon-facebook:before { content: "\f123"; }
+.flaticon-challenge:before { content: "\f124"; }
+.flaticon-frequence:before { content: "\f125"; }
+.flaticon-time:before { content: "\f126"; }
+.flaticon-repeat:before { content: "\f127"; }
+.flaticon-calendar:before { content: "\f128"; }
+.flaticon-user:before { content: "\f129"; }
+.flaticon-profile:before { content: "\f12a"; }
+.flaticon-user1:before { content: "\f12b"; }
+.flaticon-user2:before { content: "\f12c"; }
+.flaticon-users:before { content: "\f12d"; }
+.flaticon-text:before { content: "\f12e"; }
+.flaticon-text2:before { content: "\f12f"; }
+.flaticon-microphone:before { content: "\f130"; }
+.flaticon-record:before { content: "\f131"; }
+.flaticon-audio:before { content: "\f131"; }
+.flaticon-play-button:before { content: "\f132"; }
+.flaticon-speaker:before { content: "\f133"; }
+.flaticon-share:before { content: "\f134"; }
+.flaticon-share-o:before { content: "\f135"; }
+.flaticon-search:before { content: "\f136"; }
+.flaticon-search-o:before { content: "\f137"; }
+.flaticon-draw-pencil:before { content: "\f138"; }
+.flaticon-sketch:before { content: "\f139"; }
+.flaticon-draw:before { content: "\f13a"; }
+.flaticon-text-edit:before { content: "\f13b"; }
+.flaticon-draw-tool:before { content: "\f13c"; }
+.flaticon-art-tool:before { content: "\f13d"; }
+.flaticon-brush:before { content: "\f13e"; }
+.flaticon-draw-revert:before { content: "\f13f"; }
+.flaticon-pencil-1:before { content: "\f140"; }
+.flaticon-pencil-2:before { content: "\f141"; }
+.flaticon-pencil-3:before { content: "\f142"; }
+.flaticon-eye-1:before { content: "\f143"; }
+.flaticon-eye-o:before { content: "\f144"; }
+.flaticon-eye:before { content: "\f145"; }
