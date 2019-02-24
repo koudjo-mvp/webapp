@@ -2,10 +2,10 @@
 **WebApp** is a configurable web application template that handles the client onboarding aspects of your app.
 
 Use-case: If you're starting a new project (mobile app, website), focus on your core business' features implementation 
-and save some precious time by using our **WebApp** backend for the rest.
+and save some precious time by using our **WebApp** backend for the middleware/users management (and more!).
 
 ## Features
-This backend code template provides RESTful endpoints to do the following:
+This backend app template provides RESTful endpoints to do the following:
 * b2c app scenario
     * **signup** users with email verification
     * **password renewal**
@@ -23,13 +23,13 @@ This backend code template provides RESTful endpoints to do the following:
 * **task scheduling** (ondemand or recurrent)
 
 ## Prerequisites
-* NodeJS v
-* MongoDB v
-* pm2 v
-* a mailgun account (the app will use it to send a verification email to your customers)
-* RabbitMQ v (used by the task scheduler feature)
-* Celery v (used by the task scheduler feature)
-* Python 2.7 (used by the task scheduler feature)
+* NodeJS v11.8.0+, npm v6.7.0+
+* MongoDB v3.0.7+
+* pm2 v3.3.1+
+* a mailgun account www.mailgun.com (the app will use it to send a verification email to your customers)
+* RabbitMQ v3.5.6+ (used by the task scheduler features)
+* Celery v4.1.0+ (used by the task scheduler features)
+* Python 2.7.10+ (used by the task scheduler features)
 
 ## Usage
 ### Preinstallation Configuration
