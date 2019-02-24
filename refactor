@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+usage() {
+        echo "usage: refactor <new_app_name> <init-releaseversion> <init-buildversion>"
+}
+
+if [ $# -ne 3 ]; then
+        usage
+        exit 1
+fi
+
+last_cmd=""
+listfiles=$(grep -rlE --include={*.cfg,*.txt,*.xml,*.iml,*.js,*.py,*.sh,*.hjs,*.css} 'webapp|WEBAPP' .)
+allcaps=`echo $1 | tr [a-z] [A-Z]`
+#echo "list: $listfiles"
+
+for i in $listfiles; do
+	if [ -f $i ]; then
+		echo "file $i"
+		sed 's/webapp/'$1'/g; s/WEBAPP/'$allcaps'/g' $i > $i.new
+		last_cmd=$?
+
+		if [ ! $last_cmd == 0 ]; then
+			echo "could not evaluate webapp variable in code *.txt,*.xml,*.iml,*.js,*.py,*.sh,*.hjs"
+			exit 2
+		fi
+		chmod 755 $i.new
+		mv $i.new $i
+	fi
+done
+
+./build $2 $3
+
+npm install

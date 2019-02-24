@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="webapp home page">
+    <meta name="keywords" content="webapp">
+    <meta name="author" content="P.K.V.M.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://fonts.googleapis.com/css?family=Economica:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey|Cormorant+Garamond|Coiny" rel="stylesheet">
+    <!-- Magnific PopUP Stylesheet -->
+    <!-- Isotope Stylesheet -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="/stylesheets/et-lant-font.css" />
+    <!-- Main Style.css Stylesheet -->
+    <link rel="stylesheet" href="/stylesheets/ui.css">
+    <!-- Resposive.css Stylesheet -->
+    <link rel="stylesheet" href="/stylesheets/flaticon_sn.css">
+    <title><% title %></title>
+</head>
+<body ng-app="webapp-door" ng-controller="webapp-controller">
+<!-- webapp Main Menu -->
+<!-- .webapp-main-menu END -->
+
+<div class="main-title">
+    <div class="banner-1">
+        <div class="banner-1-img">
+            <picture class="banner-2-img">
+                <img class="banner-2-img__" role="presentation" src="/images/maincover.jpg">
+            </picture>
+        </div>
+        <div class="banner-1-txt">
+            <div class="banner-2-txt-main">
+                <h1>Go ahead</h1>
+            </div>
+            <div class="banner-2-txt-footer">
+                <div class="banner-3-txt-footer">
+                    <div class="banner-4-txt-footer">
+                        <a></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<article class="article-header">
+    <p><b>Welcome To webapp</b></p>
+</article>
+
+<!-- js File Start -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="/javascripts/masonry.pkgd.min.js"></script>
+<script src="/javascripts/imagesloaded.pkgd.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-cookies.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-touch.js"></script>
+<script src="/javascripts/ui.js"></script>
+<script src="/javascripts/apikey.js"></script>
+<script src="/javascripts/login_registration.js"></script>
+<!-- ui.js -->
+</body>
+</html>

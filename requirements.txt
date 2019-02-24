@@ -1,0 +1,9 @@
+###### Requirements without Version Specifiers ######
+requests
+pymongo
+watchdog
+celery
+python-twitter
+facebook-sdk
+flower
+###### Requirements with Version Specifiers ######
