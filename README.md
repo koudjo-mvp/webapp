@@ -58,7 +58,7 @@ This backend app template provides RESTful endpoints to do the following:
 
     `vi ~/.bash_profile`
 
-    `export PYTHONHOME={the path of the folder where your python executable is} (example: PYTHONHOME=/usr/local/bin)`
+    `export <YOUR_NEWAPP_NAME>_PYTHONEXEDIR={the path of the folder where your python executable is} (example: MYAPP_PYTHONEXEDIR=/usr/local/bin)`
 
     `export <YOUR_NEWAPP_NAME>_INSTALL_DIR={absolute path to target app folder} (example: MYAPP_INSTALL_DIR=/webapps/myapp)`
 
