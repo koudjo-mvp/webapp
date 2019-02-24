@@ -28,6 +28,6 @@ rm -rf .git
 chmod -R 755 *.sh refactor build ./bin/*.sh ./bin/scripts/*.sh
 ./refactor $1 $2 $3
 npm install
-python install -r requirements.txt
+pip install -r requirements.txt
 pm2 start ./ecosystem.config.js
 
