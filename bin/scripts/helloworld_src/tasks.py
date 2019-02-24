@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__author__ = "boubou"
+__author__ = "P.K.V.M. @koudjo-mvp"
 # Build v${BUILD-VERSION} #
 __version__ = "${BUILD-VERSION}"
 
