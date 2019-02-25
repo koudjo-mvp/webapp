@@ -45,7 +45,7 @@ module.exports = {
         instances: 1,
         autorestart: false,
         "watch": ["../api", "."],
-        "ignore_watch" : ["*.js", "*.pid", "*.pyc"],
+        "ignore_watch" : ["*.js", "*.pid"],
         "watch_options": {
             "followSymlinks": false
         },
@@ -61,7 +61,7 @@ module.exports = {
         instances: 1,
         autorestart: false,
         "watch": ["../api", "."],
-        "ignore_watch" : ["*.js", "*.pid", "*.pyc"],
+        "ignore_watch" : ["*.js", "*.pid"],
         "watch_options": {
             "followSymlinks": false
         },
