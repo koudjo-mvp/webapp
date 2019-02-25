@@ -1,18 +1,20 @@
 # webapp 
-**WebApp** is a configurable web application template that handles the client onboarding aspects of your app.
+**WebApp** is a Node.js configurable web application template that handles the client onboarding aspects of your app.
 
-Use-case: If you're starting a new project (mobile app, website), focus on your core business' features implementation 
+**Use-case:** If you're starting a new project (mobile app, website), focus on your core business' features implementation 
 and save some precious time by using our **WebApp** backend for the middleware/users management (and more!).
 
 ## Features
 This backend app template provides RESTful endpoints to do the following:
-* b2c app scenario
-    * **signup** users with email verification
+* **Clients onboarding** (B2C scenario)
+    * **signup process** with email verification
     * **password renewal**
-* create users (b2b app scenario)
-    * **create** users
-    * **add/delete** users
+* **CRUD users management** (B2B scenario)
+    * **search** users
+    * **create/delete** users
+    * **update** users infos
 * users **session management**
+* **security policies** to control who can view what at the meta-data level
 * **OWASP password check**
 * **nginx configuration** template for ssl settings
 * **tracability** all endpoints access events logged following this format: 
@@ -30,6 +32,7 @@ This backend app template provides RESTful endpoints to do the following:
 * RabbitMQ v3.5.6+ (used by the task scheduler features)
 * Celery v4.1.0+ (used by the task scheduler features)
 * Python 2.7.10+ (used by the task scheduler features)
+* OS: tested on CentOS 7+ and MacOS 10.13.6
 
 ## Usage
 ### Preinstallation Configuration
