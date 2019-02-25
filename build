@@ -17,7 +17,7 @@ for i in $output1; do
         #echo "file: $i"
         if [[ "$i" == *.py ]] || [[ "$i" == *.js ]]; then
             #echo "file: *.py *.js"
-            sed 's~${BUILD-VERSION}~'$1'.'$2'~g; s~${WEBAPP_PYTHONEXEDIR}~'WEBAPP_PYTHONEXEDIR'~g' $i > $i.new
+            sed 's~${BUILD-VERSION}~'$1'.'$2'~g; s~${WEBAPP_PYTHONEXEDIR}~'$WEBAPP_PYTHONEXEDIR'~g' $i > $i.new
             replace_cmd=$?
         elif [[ "$i" == *.json ]]; then
             sed 's/${RELEASE-VERSION}/'$1'/g' $i > $i.new
