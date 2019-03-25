@@ -63,13 +63,11 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-<script src="/javascripts/masonry.pkgd.min.js"></script>
-<script src="/javascripts/imagesloaded.pkgd.min.js"></script>
+<script src="/javascripts/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-cookies.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-touch.js"></script>
-<script src="/javascripts/ui.js"></script>
 <script src="/javascripts/apikey.js"></script>
 <script src="/javascripts/login_registration.js"></script>
 <!-- ui.js -->
