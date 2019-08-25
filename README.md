@@ -53,10 +53,6 @@ This backend app template provides RESTful endpoints to do the following:
 
     `users_creation_mode: "b2b"`
 
-* if you want your new app will be used in a b2b context (the app is set for 'b2c' by default), update the file `./config.js`
-
-    `users_creation_mode: "b2b"`
-
 * set your environment specific variables by adding the following lines in your bash_profile 
 
     `vi ~/.bash_profile`
