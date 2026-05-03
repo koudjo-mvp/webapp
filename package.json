@@ -35,7 +35,7 @@
     "pm2-logrotate": "^2.6.0",
     "request": "^2.85.0",
     "serve-favicon": "~2.5.0",
-    "uuid": "^3.3.2",
+    "uuid": "^14.0.0",
     "winston": "^3.1.0",
     "winston-cassandra": "^0.4.0"
   },
